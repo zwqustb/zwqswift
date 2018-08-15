@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD227E3C2121334A00030E1E /* ElonMusk03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD227E392121334A00030E1E /* ElonMusk03.mp3 */; };
+		AD227E3D2121334A00030E1E /* ElonMusk02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD227E3A2121334A00030E1E /* ElonMusk02.mp3 */; };
+		AD227E3E2121334A00030E1E /* ElonMusk01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AD227E3B2121334A00030E1E /* ElonMusk01.mp3 */; };
+		AD227E4021214DDF00030E1E /* MediaPlayerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD227E3F21214DDF00030E1E /* MediaPlayerModule.swift */; };
+		AD227E4421214E1C00030E1E /* AudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD227E4221214E1C00030E1E /* AudioVC.swift */; };
+		AD227E4521214E1C00030E1E /* AudioVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD227E4321214E1C00030E1E /* AudioVC.xib */; };
+		AD227E472121504C00030E1E /* AudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD227E462121504C00030E1E /* AudioView.swift */; };
+		AD227E492121508000030E1E /* AudioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD227E482121508000030E1E /* AudioView.xib */; };
+		AD227E4B212266F600030E1E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD227E4A212266F600030E1E /* MediaPlayer.framework */; };
+		AD227E4D212268B100030E1E /* heartrate120.png in Resources */ = {isa = PBXBuildFile; fileRef = AD227E4C212268B100030E1E /* heartrate120.png */; };
+		AD30D9552122C04400E7AABA /* HearthKitTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30D9542122C04400E7AABA /* HearthKitTool.swift */; };
+		AD30D9572122C0FB00E7AABA /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD30D9562122C0FB00E7AABA /* HealthKit.framework */; };
+		AD4D3C2820E9F33500B29344 /* BlueToothVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4D3C2620E9F33500B29344 /* BlueToothVC.swift */; };
+		AD4D3C2920E9F33500B29344 /* BlueToothVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD4D3C2720E9F33500B29344 /* BlueToothVC.xib */; };
+		AD4D3C2C20E9F45900B29344 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4D3C2B20E9F45900B29344 /* CoreBluetooth.framework */; };
+		AD985E8520EDB61100661B98 /* RGKT_MeasureResult_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = AD985E8420EDB61100661B98 /* RGKT_MeasureResult_Model.m */; };
+		ADA9503A20EC531200DD7D1A /* BloodpressureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9503820EC531200DD7D1A /* BloodpressureVC.swift */; };
+		ADA9504020EC558900DD7D1A /* libBLEManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA9503E20EC558900DD7D1A /* libBLEManager.a */; };
+		ADA9504320EC8C3000DD7D1A /* BloodPressure.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA9504220EC8C3000DD7D1A /* BloodPressure.xcassets */; };
+		ADA9504720EC8F5E00DD7D1A /* BloodpressureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA9504620EC8F5E00DD7D1A /* BloodpressureVC.xib */; };
+		ADA9504920EC93DE00DD7D1A /* UIView+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9504820EC93DE00DD7D1A /* UIView+IB.swift */; };
+		ADAD88C020E768A000EA364F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD88BF20E768A000EA364F /* AppDelegate.swift */; };
+		ADAD88C220E768A000EA364F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD88C120E768A000EA364F /* ViewController.swift */; };
+		ADAD88C520E768A000EA364F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAD88C320E768A000EA364F /* Main.storyboard */; };
+		ADAD88C820E768A000EA364F /* ZwqSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADAD88C620E768A000EA364F /* ZwqSwift.xcdatamodeld */; };
+		ADAD88CA20E768A100EA364F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAD88C920E768A100EA364F /* Assets.xcassets */; };
+		ADAD88CD20E768A100EA364F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAD88CB20E768A100EA364F /* LaunchScreen.storyboard */; };
+		ADAD88D820E768A100EA364F /* ZwqSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD88D720E768A100EA364F /* ZwqSwiftTests.swift */; };
+		ADAD88E320E768A100EA364F /* ZwqSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD88E220E768A100EA364F /* ZwqSwiftUITests.swift */; };
+		ADAD88F520E76F2200EA364F /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ADAD88F420E76F2200EA364F /* test.mp4 */; };
+		ADAD88FE20E7718500EA364F /* StringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD88F620E7718400EA364F /* StringTool.swift */; };
+		ADAD88FF20E7718500EA364F /* extImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD88F820E7718400EA364F /* extImage.swift */; };
+		ADAD890020E7718500EA364F /* extAvplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD88F920E7718400EA364F /* extAvplayer.swift */; };
+		ADAD890120E7718500EA364F /* HttpCmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD88FA20E7718500EA364F /* HttpCmd.swift */; };
+		ADAD890220E7718500EA364F /* DateTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD88FB20E7718500EA364F /* DateTools.swift */; };
+		ADAD890320E7718500EA364F /* LogicTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD88FC20E7718500EA364F /* LogicTool.swift */; };
+		ADAD890420E7718500EA364F /* UITools.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD88FD20E7718500EA364F /* UITools.swift */; };
+		ADAD890720E772BF00EA364F /* VideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADAD890520E772BF00EA364F /* VideoView.xib */; };
+		ADAD890820E772BF00EA364F /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD890620E772BF00EA364F /* VideoView.swift */; };
+		ADAD890A20E7A28000EA364F /* LandscapeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD890920E7A28000EA364F /* LandscapeVC.swift */; };
+		ADAD890C20E7A34400EA364F /* videoPlayer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAD890B20E7A34400EA364F /* videoPlayer.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADAD88D420E768A100EA364F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAD88B420E768A000EA364F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADAD88BB20E768A000EA364F;
+			remoteInfo = ZwqSwift;
+		};
+		ADAD88DF20E768A100EA364F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAD88B420E768A000EA364F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADAD88BB20E768A000EA364F;
+			remoteInfo = ZwqSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD227E392121334A00030E1E /* ElonMusk03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ElonMusk03.mp3; sourceTree = "<group>"; };
+		AD227E3A2121334A00030E1E /* ElonMusk02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ElonMusk02.mp3; sourceTree = "<group>"; };
+		AD227E3B2121334A00030E1E /* ElonMusk01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ElonMusk01.mp3; sourceTree = "<group>"; };
+		AD227E3F21214DDF00030E1E /* MediaPlayerModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerModule.swift; sourceTree = "<group>"; };
+		AD227E4221214E1C00030E1E /* AudioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVC.swift; sourceTree = "<group>"; };
+		AD227E4321214E1C00030E1E /* AudioVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioVC.xib; sourceTree = "<group>"; };
+		AD227E462121504C00030E1E /* AudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioView.swift; sourceTree = "<group>"; };
+		AD227E482121508000030E1E /* AudioView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioView.xib; sourceTree = "<group>"; };
+		AD227E4A212266F600030E1E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		AD227E4C212268B100030E1E /* heartrate120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartrate120.png; sourceTree = "<group>"; };
+		AD30D9542122C04400E7AABA /* HearthKitTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthKitTool.swift; sourceTree = "<group>"; };
+		AD30D9562122C0FB00E7AABA /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		AD30D9582122C0FB00E7AABA /* ZwqSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZwqSwift.entitlements; sourceTree = "<group>"; };
+		AD4D3C2620E9F33500B29344 /* BlueToothVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueToothVC.swift; sourceTree = "<group>"; };
+		AD4D3C2720E9F33500B29344 /* BlueToothVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueToothVC.xib; sourceTree = "<group>"; };
+		AD4D3C2B20E9F45900B29344 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		AD985E8320EDB61000661B98 /* RGKT_MeasureResult_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGKT_MeasureResult_Model.h; sourceTree = "<group>"; };
+		AD985E8420EDB61100661B98 /* RGKT_MeasureResult_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGKT_MeasureResult_Model.m; sourceTree = "<group>"; };
+		ADA9503820EC531200DD7D1A /* BloodpressureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodpressureVC.swift; sourceTree = "<group>"; };
+		ADA9503E20EC558900DD7D1A /* libBLEManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBLEManager.a; sourceTree = "<group>"; };
+		ADA9503F20EC558900DD7D1A /* BLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEManager.h; sourceTree = "<group>"; };
+		ADA9504220EC8C3000DD7D1A /* BloodPressure.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BloodPressure.xcassets; sourceTree = "<group>"; };
+		ADA9504620EC8F5E00DD7D1A /* BloodpressureVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloodpressureVC.xib; sourceTree = "<group>"; };
+		ADA9504820EC93DE00DD7D1A /* UIView+IB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IB.swift"; sourceTree = "<group>"; };
+		ADAD88BC20E768A000EA364F /* ZwqSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZwqSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAD88BF20E768A000EA364F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADAD88C120E768A000EA364F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADAD88C420E768A000EA364F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADAD88C720E768A000EA364F /* ZwqSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZwqSwift.xcdatamodel; sourceTree = "<group>"; };
+		ADAD88C920E768A100EA364F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADAD88CC20E768A100EA364F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADAD88CE20E768A100EA364F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAD88D320E768A100EA364F /* ZwqSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZwqSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAD88D720E768A100EA364F /* ZwqSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZwqSwiftTests.swift; sourceTree = "<group>"; };
+		ADAD88D920E768A100EA364F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAD88DE20E768A100EA364F /* ZwqSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZwqSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAD88E220E768A100EA364F /* ZwqSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZwqSwiftUITests.swift; sourceTree = "<group>"; };
+		ADAD88E420E768A100EA364F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAD88F420E76F2200EA364F /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		ADAD88F620E7718400EA364F /* StringTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringTool.swift; sourceTree = "<group>"; };
+		ADAD88F720E7718400EA364F /* ZwqSwift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZwqSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		ADAD88F820E7718400EA364F /* extImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extImage.swift; sourceTree = "<group>"; };
+		ADAD88F920E7718400EA364F /* extAvplayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extAvplayer.swift; sourceTree = "<group>"; };
+		ADAD88FA20E7718500EA364F /* HttpCmd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpCmd.swift; sourceTree = "<group>"; };
+		ADAD88FB20E7718500EA364F /* DateTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTools.swift; sourceTree = "<group>"; };
+		ADAD88FC20E7718500EA364F /* LogicTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogicTool.swift; sourceTree = "<group>"; };
+		ADAD88FD20E7718500EA364F /* UITools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITools.swift; sourceTree = "<group>"; };
+		ADAD890520E772BF00EA364F /* VideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoView.xib; sourceTree = "<group>"; };
+		ADAD890620E772BF00EA364F /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		ADAD890920E7A28000EA364F /* LandscapeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandscapeVC.swift; sourceTree = "<group>"; };
+		ADAD890B20E7A34400EA364F /* videoPlayer.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = videoPlayer.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADAD88B920E768A000EA364F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD227E4B212266F600030E1E /* MediaPlayer.framework in Frameworks */,
+				AD30D9572122C0FB00E7AABA /* HealthKit.framework in Frameworks */,
+				AD4D3C2C20E9F45900B29344 /* CoreBluetooth.framework in Frameworks */,
+				ADA9504020EC558900DD7D1A /* libBLEManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAD88D020E768A100EA364F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAD88DB20E768A100EA364F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD227E372121270900030E1E /* audioPlay */ = {
+			isa = PBXGroup;
+			children = (
+				AD227E4121214DF100030E1E /* view */,
+				AD227E3F21214DDF00030E1E /* MediaPlayerModule.swift */,
+			);
+			path = audioPlay;
+			sourceTree = "<group>";
+		};
+		AD227E4121214DF100030E1E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AD227E4221214E1C00030E1E /* AudioVC.swift */,
+				AD227E4321214E1C00030E1E /* AudioVC.xib */,
+				AD227E462121504C00030E1E /* AudioView.swift */,
+				AD227E482121508000030E1E /* AudioView.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		AD30D9532122C00700E7AABA /* healthTool */ = {
+			isa = PBXGroup;
+			children = (
+				AD30D9542122C04400E7AABA /* HearthKitTool.swift */,
+			);
+			path = healthTool;
+			sourceTree = "<group>";
+		};
+		AD4D3C2520E9F31E00B29344 /* blueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				AD4D3C2620E9F33500B29344 /* BlueToothVC.swift */,
+				AD4D3C2720E9F33500B29344 /* BlueToothVC.xib */,
+			);
+			path = blueTooth;
+			sourceTree = "<group>";
+		};
+		AD4D3C2A20E9F45900B29344 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD30D9562122C0FB00E7AABA /* HealthKit.framework */,
+				AD227E4A212266F600030E1E /* MediaPlayer.framework */,
+				AD4D3C2B20E9F45900B29344 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADA9503C20EC554800DD7D1A /* bloodPressure */ = {
+			isa = PBXGroup;
+			children = (
+				ADA9503820EC531200DD7D1A /* BloodpressureVC.swift */,
+				ADA9504620EC8F5E00DD7D1A /* BloodpressureVC.xib */,
+				ADA9503D20EC558900DD7D1A /* sdk */,
+				ADA9504220EC8C3000DD7D1A /* BloodPressure.xcassets */,
+			);
+			path = bloodPressure;
+			sourceTree = "<group>";
+		};
+		ADA9503D20EC558900DD7D1A /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				AD985E8320EDB61000661B98 /* RGKT_MeasureResult_Model.h */,
+				AD985E8420EDB61100661B98 /* RGKT_MeasureResult_Model.m */,
+				ADA9503E20EC558900DD7D1A /* libBLEManager.a */,
+				ADA9503F20EC558900DD7D1A /* BLEManager.h */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
+		ADAD88B320E768A000EA364F = {
+			isa = PBXGroup;
+			children = (
+				ADAD88BE20E768A000EA364F /* ZwqSwift */,
+				ADAD88D620E768A100EA364F /* ZwqSwiftTests */,
+				ADAD88E120E768A100EA364F /* ZwqSwiftUITests */,
+				ADAD88BD20E768A000EA364F /* Products */,
+				AD4D3C2A20E9F45900B29344 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADAD88BD20E768A000EA364F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADAD88BC20E768A000EA364F /* ZwqSwift.app */,
+				ADAD88D320E768A100EA364F /* ZwqSwiftTests.xctest */,
+				ADAD88DE20E768A100EA364F /* ZwqSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADAD88BE20E768A000EA364F /* ZwqSwift */ = {
+			isa = PBXGroup;
+			children = (
+				AD30D9582122C0FB00E7AABA /* ZwqSwift.entitlements */,
+				ADAD88F220E76EE400EA364F /* func */,
+				ADAD88F120E7691A00EA364F /* tools */,
+				ADAD88F020E7690E00EA364F /* resource */,
+				ADAD88BF20E768A000EA364F /* AppDelegate.swift */,
+				ADAD88C120E768A000EA364F /* ViewController.swift */,
+				ADAD88C320E768A000EA364F /* Main.storyboard */,
+				ADAD88C920E768A100EA364F /* Assets.xcassets */,
+				ADAD88CB20E768A100EA364F /* LaunchScreen.storyboard */,
+				ADAD88CE20E768A100EA364F /* Info.plist */,
+				ADAD88C620E768A000EA364F /* ZwqSwift.xcdatamodeld */,
+			);
+			path = ZwqSwift;
+			sourceTree = "<group>";
+		};
+		ADAD88D620E768A100EA364F /* ZwqSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAD88D720E768A100EA364F /* ZwqSwiftTests.swift */,
+				ADAD88D920E768A100EA364F /* Info.plist */,
+			);
+			path = ZwqSwiftTests;
+			sourceTree = "<group>";
+		};
+		ADAD88E120E768A100EA364F /* ZwqSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAD88E220E768A100EA364F /* ZwqSwiftUITests.swift */,
+				ADAD88E420E768A100EA364F /* Info.plist */,
+			);
+			path = ZwqSwiftUITests;
+			sourceTree = "<group>";
+		};
+		ADAD88F020E7690E00EA364F /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				AD227E4C212268B100030E1E /* heartrate120.png */,
+				AD227E3B2121334A00030E1E /* ElonMusk01.mp3 */,
+				AD227E3A2121334A00030E1E /* ElonMusk02.mp3 */,
+				AD227E392121334A00030E1E /* ElonMusk03.mp3 */,
+				ADAD88F420E76F2200EA364F /* test.mp4 */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		ADAD88F120E7691A00EA364F /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				ADA9504820EC93DE00DD7D1A /* UIView+IB.swift */,
+				ADAD88FB20E7718500EA364F /* DateTools.swift */,
+				ADAD88F920E7718400EA364F /* extAvplayer.swift */,
+				ADAD88F820E7718400EA364F /* extImage.swift */,
+				ADAD88FA20E7718500EA364F /* HttpCmd.swift */,
+				ADAD88FC20E7718500EA364F /* LogicTool.swift */,
+				ADAD88F720E7718400EA364F /* ZwqSwift-Bridging-Header.h */,
+				ADAD88F620E7718400EA364F /* StringTool.swift */,
+				ADAD88FD20E7718500EA364F /* UITools.swift */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		ADAD88F220E76EE400EA364F /* func */ = {
+			isa = PBXGroup;
+			children = (
+				AD30D9532122C00700E7AABA /* healthTool */,
+				AD227E372121270900030E1E /* audioPlay */,
+				ADFC902020F32F9E005B81D3 /* FiberOptic */,
+				ADA9503C20EC554800DD7D1A /* bloodPressure */,
+				AD4D3C2520E9F31E00B29344 /* blueTooth */,
+				ADAD88F320E76EEC00EA364F /* videoPlay */,
+			);
+			path = func;
+			sourceTree = "<group>";
+		};
+		ADAD88F320E76EEC00EA364F /* videoPlay */ = {
+			isa = PBXGroup;
+			children = (
+				ADAD890920E7A28000EA364F /* LandscapeVC.swift */,
+				ADAD890620E772BF00EA364F /* VideoView.swift */,
+				ADAD890520E772BF00EA364F /* VideoView.xib */,
+				ADAD890B20E7A34400EA364F /* videoPlayer.xcassets */,
+			);
+			path = videoPlay;
+			sourceTree = "<group>";
+		};
+		ADFC902020F32F9E005B81D3 /* FiberOptic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FiberOptic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADAD88BB20E768A000EA364F /* ZwqSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAD88E720E768A100EA364F /* Build configuration list for PBXNativeTarget "ZwqSwift" */;
+			buildPhases = (
+				ADAD88B820E768A000EA364F /* Sources */,
+				ADAD88B920E768A000EA364F /* Frameworks */,
+				ADAD88BA20E768A000EA364F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZwqSwift;
+			productName = ZwqSwift;
+			productReference = ADAD88BC20E768A000EA364F /* ZwqSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADAD88D220E768A100EA364F /* ZwqSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAD88EA20E768A100EA364F /* Build configuration list for PBXNativeTarget "ZwqSwiftTests" */;
+			buildPhases = (
+				ADAD88CF20E768A100EA364F /* Sources */,
+				ADAD88D020E768A100EA364F /* Frameworks */,
+				ADAD88D120E768A100EA364F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAD88D520E768A100EA364F /* PBXTargetDependency */,
+			);
+			name = ZwqSwiftTests;
+			productName = ZwqSwiftTests;
+			productReference = ADAD88D320E768A100EA364F /* ZwqSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADAD88DD20E768A100EA364F /* ZwqSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAD88ED20E768A100EA364F /* Build configuration list for PBXNativeTarget "ZwqSwiftUITests" */;
+			buildPhases = (
+				ADAD88DA20E768A100EA364F /* Sources */,
+				ADAD88DB20E768A100EA364F /* Frameworks */,
+				ADAD88DC20E768A100EA364F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAD88E020E768A100EA364F /* PBXTargetDependency */,
+			);
+			name = ZwqSwiftUITests;
+			productName = ZwqSwiftUITests;
+			productReference = ADAD88DE20E768A100EA364F /* ZwqSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADAD88B420E768A000EA364F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zhangwenqiang;
+				TargetAttributes = {
+					ADAD88BB20E768A000EA364F = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					ADAD88D220E768A100EA364F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ADAD88BB20E768A000EA364F;
+					};
+					ADAD88DD20E768A100EA364F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ADAD88BB20E768A000EA364F;
+					};
+				};
+			};
+			buildConfigurationList = ADAD88B720E768A000EA364F /* Build configuration list for PBXProject "ZwqSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADAD88B320E768A000EA364F;
+			productRefGroup = ADAD88BD20E768A000EA364F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADAD88BB20E768A000EA364F /* ZwqSwift */,
+				ADAD88D220E768A100EA364F /* ZwqSwiftTests */,
+				ADAD88DD20E768A100EA364F /* ZwqSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADAD88BA20E768A000EA364F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAD890C20E7A34400EA364F /* videoPlayer.xcassets in Resources */,
+				ADAD88CD20E768A100EA364F /* LaunchScreen.storyboard in Resources */,
+				AD4D3C2920E9F33500B29344 /* BlueToothVC.xib in Resources */,
+				ADAD88CA20E768A100EA364F /* Assets.xcassets in Resources */,
+				AD227E3D2121334A00030E1E /* ElonMusk02.mp3 in Resources */,
+				ADAD88C520E768A000EA364F /* Main.storyboard in Resources */,
+				AD227E4D212268B100030E1E /* heartrate120.png in Resources */,
+				ADAD890720E772BF00EA364F /* VideoView.xib in Resources */,
+				ADA9504320EC8C3000DD7D1A /* BloodPressure.xcassets in Resources */,
+				ADAD88F520E76F2200EA364F /* test.mp4 in Resources */,
+				ADA9504720EC8F5E00DD7D1A /* BloodpressureVC.xib in Resources */,
+				AD227E4521214E1C00030E1E /* AudioVC.xib in Resources */,
+				AD227E492121508000030E1E /* AudioView.xib in Resources */,
+				AD227E3C2121334A00030E1E /* ElonMusk03.mp3 in Resources */,
+				AD227E3E2121334A00030E1E /* ElonMusk01.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAD88D120E768A100EA364F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAD88DC20E768A100EA364F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADAD88B820E768A000EA364F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAD88FE20E7718500EA364F /* StringTool.swift in Sources */,
+				ADAD890220E7718500EA364F /* DateTools.swift in Sources */,
+				ADAD88C220E768A000EA364F /* ViewController.swift in Sources */,
+				ADAD88C020E768A000EA364F /* AppDelegate.swift in Sources */,
+				ADAD88FF20E7718500EA364F /* extImage.swift in Sources */,
+				ADAD88C820E768A000EA364F /* ZwqSwift.xcdatamodeld in Sources */,
+				AD227E4021214DDF00030E1E /* MediaPlayerModule.swift in Sources */,
+				ADAD890020E7718500EA364F /* extAvplayer.swift in Sources */,
+				ADAD890420E7718500EA364F /* UITools.swift in Sources */,
+				AD985E8520EDB61100661B98 /* RGKT_MeasureResult_Model.m in Sources */,
+				ADAD890A20E7A28000EA364F /* LandscapeVC.swift in Sources */,
+				ADA9504920EC93DE00DD7D1A /* UIView+IB.swift in Sources */,
+				AD30D9552122C04400E7AABA /* HearthKitTool.swift in Sources */,
+				AD227E472121504C00030E1E /* AudioView.swift in Sources */,
+				ADAD890120E7718500EA364F /* HttpCmd.swift in Sources */,
+				AD227E4421214E1C00030E1E /* AudioVC.swift in Sources */,
+				ADA9503A20EC531200DD7D1A /* BloodpressureVC.swift in Sources */,
+				AD4D3C2820E9F33500B29344 /* BlueToothVC.swift in Sources */,
+				ADAD890820E772BF00EA364F /* VideoView.swift in Sources */,
+				ADAD890320E7718500EA364F /* LogicTool.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAD88CF20E768A100EA364F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAD88D820E768A100EA364F /* ZwqSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAD88DA20E768A100EA364F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAD88E320E768A100EA364F /* ZwqSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADAD88D520E768A100EA364F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADAD88BB20E768A000EA364F /* ZwqSwift */;
+			targetProxy = ADAD88D420E768A100EA364F /* PBXContainerItemProxy */;
+		};
+		ADAD88E020E768A100EA364F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADAD88BB20E768A000EA364F /* ZwqSwift */;
+			targetProxy = ADAD88DF20E768A100EA364F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADAD88C320E768A000EA364F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAD88C420E768A000EA364F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADAD88CB20E768A100EA364F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAD88CC20E768A100EA364F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADAD88E520E768A100EA364F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADAD88E620E768A100EA364F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADAD88E820E768A100EA364F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZwqSwift/ZwqSwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYTR7U8F29;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZwqSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZwqSwift/func/bloodPressure/sdk",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwq.ZwqSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZwqSwift/tools/ZwqSwift-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADAD88E920E768A100EA364F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZwqSwift/ZwqSwift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYTR7U8F29;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ZwqSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZwqSwift/func/bloodPressure/sdk",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwq.ZwqSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZwqSwift/tools/ZwqSwift-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADAD88EB20E768A100EA364F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46SVHMGT9D;
+				INFOPLIST_FILE = ZwqSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwq.ZwqSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZwqSwift.app/ZwqSwift";
+			};
+			name = Debug;
+		};
+		ADAD88EC20E768A100EA364F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46SVHMGT9D;
+				INFOPLIST_FILE = ZwqSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwq.ZwqSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZwqSwift.app/ZwqSwift";
+			};
+			name = Release;
+		};
+		ADAD88EE20E768A100EA364F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46SVHMGT9D;
+				INFOPLIST_FILE = ZwqSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwq.ZwqSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZwqSwift;
+			};
+			name = Debug;
+		};
+		ADAD88EF20E768A100EA364F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46SVHMGT9D;
+				INFOPLIST_FILE = ZwqSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwq.ZwqSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZwqSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADAD88B720E768A000EA364F /* Build configuration list for PBXProject "ZwqSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAD88E520E768A100EA364F /* Debug */,
+				ADAD88E620E768A100EA364F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAD88E720E768A100EA364F /* Build configuration list for PBXNativeTarget "ZwqSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAD88E820E768A100EA364F /* Debug */,
+				ADAD88E920E768A100EA364F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAD88EA20E768A100EA364F /* Build configuration list for PBXNativeTarget "ZwqSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAD88EB20E768A100EA364F /* Debug */,
+				ADAD88EC20E768A100EA364F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAD88ED20E768A100EA364F /* Build configuration list for PBXNativeTarget "ZwqSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAD88EE20E768A100EA364F /* Debug */,
+				ADAD88EF20E768A100EA364F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADAD88C620E768A000EA364F /* ZwqSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADAD88C720E768A000EA364F /* ZwqSwift.xcdatamodel */,
+			);
+			currentVersion = ADAD88C720E768A000EA364F /* ZwqSwift.xcdatamodel */;
+			path = ZwqSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADAD88B420E768A000EA364F /* Project object */;
+}
