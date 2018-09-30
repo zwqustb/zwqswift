@@ -109,16 +109,16 @@ class MediaPlayerModule: NSObject,AVAudioPlayerDelegate {
         let duration = pDic["time"] ?? "0"
         let title = pDic["title"] ?? "未知"
        // let imgPath = pDic["img"]
-        let artWork = MPMediaItemArtwork.init(boundsSize: CGSize.init(width: 20, height: 20)) { (size) -> UIImage in
-            let img = #imageLiteral(resourceName: "heartrate120.png")
-            return img
-        }
-        MPNowPlayingInfoCenter.default().nowPlayingInfo =
-        [
-            MPMediaItemPropertyPlaybackDuration:duration,
-            MPMediaItemPropertyTitle:title,
-            MPMediaItemPropertyArtwork:artWork
-        ]
+//        let artWork = MPMediaItemArtwork.init(boundsSize: CGSize.init(width: 20, height: 20)) { (size) -> UIImage in
+//            let img = #imageLiteral(resourceName: "heartrate120.png")
+//            return img
+//        }
+//        MPNowPlayingInfoCenter.default().nowPlayingInfo =
+//        [
+//            MPMediaItemPropertyPlaybackDuration:duration,
+//            MPMediaItemPropertyTitle:title,
+//            MPMediaItemPropertyArtwork:artWork
+//        ]
     }
     //MARK:delegate
 

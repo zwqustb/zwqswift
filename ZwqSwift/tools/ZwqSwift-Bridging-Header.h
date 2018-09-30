@@ -14,5 +14,5 @@
 //#import <ShareSDK/SSDKTypeDefine.h>
 //#import "AliVcMoiveViewController.h"
 //#import "PlayerKit.h"
-#import "BLEManager.h"
-#import "RGKT_MeasureResult_Model.h"
+//#import "BLEManager.h"
+//#import "RGKT_MeasureResult_Model.h"

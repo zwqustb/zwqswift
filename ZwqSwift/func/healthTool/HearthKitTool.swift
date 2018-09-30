@@ -35,7 +35,7 @@ class HearthKitTool: UIView {
             if authorState == .sharingAuthorized{
                 let calendar = NSCalendar.current
                 let now = NSDate()
-                let comp = Calendar.Component.day
+               // let comp = Calendar.Component.day
                 let components =
                     calendar.dateComponents([.year, .month, .day], from: now as Date)
                 

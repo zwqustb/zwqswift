@@ -22,11 +22,9 @@
 		AD4D3C2820E9F33500B29344 /* BlueToothVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4D3C2620E9F33500B29344 /* BlueToothVC.swift */; };
 		AD4D3C2920E9F33500B29344 /* BlueToothVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD4D3C2720E9F33500B29344 /* BlueToothVC.xib */; };
 		AD4D3C2C20E9F45900B29344 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4D3C2B20E9F45900B29344 /* CoreBluetooth.framework */; };
-		AD985E8520EDB61100661B98 /* RGKT_MeasureResult_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = AD985E8420EDB61100661B98 /* RGKT_MeasureResult_Model.m */; };
-		ADA9503A20EC531200DD7D1A /* BloodpressureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9503820EC531200DD7D1A /* BloodpressureVC.swift */; };
-		ADA9504020EC558900DD7D1A /* libBLEManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADA9503E20EC558900DD7D1A /* libBLEManager.a */; };
-		ADA9504320EC8C3000DD7D1A /* BloodPressure.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA9504220EC8C3000DD7D1A /* BloodPressure.xcassets */; };
-		ADA9504720EC8F5E00DD7D1A /* BloodpressureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA9504620EC8F5E00DD7D1A /* BloodpressureVC.xib */; };
+		AD825600212EEB65000671FD /* DataRangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8255FE212EEB65000671FD /* DataRangeView.swift */; };
+		AD825601212EEB65000671FD /* DataRangeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD8255FF212EEB65000671FD /* DataRangeView.xib */; };
+		AD9EB4A0215DEB6800313456 /* BlueToothMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9EB49F215DEB6800313456 /* BlueToothMode.swift */; };
 		ADA9504920EC93DE00DD7D1A /* UIView+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA9504820EC93DE00DD7D1A /* UIView+IB.swift */; };
 		ADAD88C020E768A000EA364F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD88BF20E768A000EA364F /* AppDelegate.swift */; };
 		ADAD88C220E768A000EA364F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD88C120E768A000EA364F /* ViewController.swift */; };
@@ -84,13 +82,9 @@
 		AD4D3C2620E9F33500B29344 /* BlueToothVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueToothVC.swift; sourceTree = "<group>"; };
 		AD4D3C2720E9F33500B29344 /* BlueToothVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueToothVC.xib; sourceTree = "<group>"; };
 		AD4D3C2B20E9F45900B29344 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
-		AD985E8320EDB61000661B98 /* RGKT_MeasureResult_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGKT_MeasureResult_Model.h; sourceTree = "<group>"; };
-		AD985E8420EDB61100661B98 /* RGKT_MeasureResult_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGKT_MeasureResult_Model.m; sourceTree = "<group>"; };
-		ADA9503820EC531200DD7D1A /* BloodpressureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodpressureVC.swift; sourceTree = "<group>"; };
-		ADA9503E20EC558900DD7D1A /* libBLEManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBLEManager.a; sourceTree = "<group>"; };
-		ADA9503F20EC558900DD7D1A /* BLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEManager.h; sourceTree = "<group>"; };
-		ADA9504220EC8C3000DD7D1A /* BloodPressure.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BloodPressure.xcassets; sourceTree = "<group>"; };
-		ADA9504620EC8F5E00DD7D1A /* BloodpressureVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BloodpressureVC.xib; sourceTree = "<group>"; };
+		AD8255FE212EEB65000671FD /* DataRangeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRangeView.swift; sourceTree = "<group>"; };
+		AD8255FF212EEB65000671FD /* DataRangeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataRangeView.xib; sourceTree = "<group>"; };
+		AD9EB49F215DEB6800313456 /* BlueToothMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueToothMode.swift; sourceTree = "<group>"; };
 		ADA9504820EC93DE00DD7D1A /* UIView+IB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+IB.swift"; sourceTree = "<group>"; };
 		ADAD88BC20E768A000EA364F /* ZwqSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZwqSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAD88BF20E768A000EA364F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,7 +123,6 @@
 				AD227E4B212266F600030E1E /* MediaPlayer.framework in Frameworks */,
 				AD30D9572122C0FB00E7AABA /* HealthKit.framework in Frameworks */,
 				AD4D3C2C20E9F45900B29344 /* CoreBluetooth.framework in Frameworks */,
-				ADA9504020EC558900DD7D1A /* libBLEManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,26 +190,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ADA9503C20EC554800DD7D1A /* bloodPressure */ = {
+		AD8255FD212EEB4F000671FD /* xibReuse */ = {
 			isa = PBXGroup;
 			children = (
-				ADA9503820EC531200DD7D1A /* BloodpressureVC.swift */,
-				ADA9504620EC8F5E00DD7D1A /* BloodpressureVC.xib */,
-				ADA9503D20EC558900DD7D1A /* sdk */,
-				ADA9504220EC8C3000DD7D1A /* BloodPressure.xcassets */,
+				AD8255FE212EEB65000671FD /* DataRangeView.swift */,
+				AD8255FF212EEB65000671FD /* DataRangeView.xib */,
 			);
-			path = bloodPressure;
+			path = xibReuse;
 			sourceTree = "<group>";
 		};
-		ADA9503D20EC558900DD7D1A /* sdk */ = {
+		AD9EB49E215DEB6800313456 /* BT */ = {
 			isa = PBXGroup;
 			children = (
-				AD985E8320EDB61000661B98 /* RGKT_MeasureResult_Model.h */,
-				AD985E8420EDB61100661B98 /* RGKT_MeasureResult_Model.m */,
-				ADA9503E20EC558900DD7D1A /* libBLEManager.a */,
-				ADA9503F20EC558900DD7D1A /* BLEManager.h */,
+				AD9EB49F215DEB6800313456 /* BlueToothMode.swift */,
 			);
-			path = sdk;
+			path = BT;
 			sourceTree = "<group>";
 		};
 		ADAD88B320E768A000EA364F = {
@@ -307,10 +295,11 @@
 		ADAD88F220E76EE400EA364F /* func */ = {
 			isa = PBXGroup;
 			children = (
+				AD9EB49E215DEB6800313456 /* BT */,
+				AD8255FD212EEB4F000671FD /* xibReuse */,
 				AD30D9532122C00700E7AABA /* healthTool */,
 				AD227E372121270900030E1E /* audioPlay */,
 				ADFC902020F32F9E005B81D3 /* FiberOptic */,
-				ADA9503C20EC554800DD7D1A /* bloodPressure */,
 				AD4D3C2520E9F31E00B29344 /* blueTooth */,
 				ADAD88F320E76EEC00EA364F /* videoPlay */,
 			);
@@ -451,13 +440,12 @@
 				ADAD88CD20E768A100EA364F /* LaunchScreen.storyboard in Resources */,
 				AD4D3C2920E9F33500B29344 /* BlueToothVC.xib in Resources */,
 				ADAD88CA20E768A100EA364F /* Assets.xcassets in Resources */,
+				AD825601212EEB65000671FD /* DataRangeView.xib in Resources */,
 				AD227E3D2121334A00030E1E /* ElonMusk02.mp3 in Resources */,
 				ADAD88C520E768A000EA364F /* Main.storyboard in Resources */,
 				AD227E4D212268B100030E1E /* heartrate120.png in Resources */,
 				ADAD890720E772BF00EA364F /* VideoView.xib in Resources */,
-				ADA9504320EC8C3000DD7D1A /* BloodPressure.xcassets in Resources */,
 				ADAD88F520E76F2200EA364F /* test.mp4 in Resources */,
-				ADA9504720EC8F5E00DD7D1A /* BloodpressureVC.xib in Resources */,
 				AD227E4521214E1C00030E1E /* AudioVC.xib in Resources */,
 				AD227E492121508000030E1E /* AudioView.xib in Resources */,
 				AD227E3C2121334A00030E1E /* ElonMusk03.mp3 in Resources */,
@@ -495,14 +483,14 @@
 				AD227E4021214DDF00030E1E /* MediaPlayerModule.swift in Sources */,
 				ADAD890020E7718500EA364F /* extAvplayer.swift in Sources */,
 				ADAD890420E7718500EA364F /* UITools.swift in Sources */,
-				AD985E8520EDB61100661B98 /* RGKT_MeasureResult_Model.m in Sources */,
 				ADAD890A20E7A28000EA364F /* LandscapeVC.swift in Sources */,
 				ADA9504920EC93DE00DD7D1A /* UIView+IB.swift in Sources */,
+				AD825600212EEB65000671FD /* DataRangeView.swift in Sources */,
 				AD30D9552122C04400E7AABA /* HearthKitTool.swift in Sources */,
+				AD9EB4A0215DEB6800313456 /* BlueToothMode.swift in Sources */,
 				AD227E472121504C00030E1E /* AudioView.swift in Sources */,
 				ADAD890120E7718500EA364F /* HttpCmd.swift in Sources */,
 				AD227E4421214E1C00030E1E /* AudioVC.swift in Sources */,
-				ADA9503A20EC531200DD7D1A /* BloodpressureVC.swift in Sources */,
 				AD4D3C2820E9F33500B29344 /* BlueToothVC.swift in Sources */,
 				ADAD890820E772BF00EA364F /* VideoView.swift in Sources */,
 				ADAD890320E7718500EA364F /* LogicTool.swift in Sources */,
@@ -611,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -665,7 +653,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -683,6 +671,7 @@
 				DEVELOPMENT_TEAM = MYTR7U8F29;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ZwqSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -708,6 +697,7 @@
 				DEVELOPMENT_TEAM = MYTR7U8F29;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ZwqSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

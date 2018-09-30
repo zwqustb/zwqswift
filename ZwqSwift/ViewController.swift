@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     var pView:VideoView?
     @IBOutlet weak var lWalkNum: UILabel!
     @IBAction func showBP(_ sender: UIButton) {
-        let pVC = BloodpressureVC.init(nibName: "BloodpressureVC", bundle: nil)
-        pushView(pVC)
+//        let pVC = BloodpressureVC.init(nibName: "BloodpressureVC", bundle: nil)
+//        pushView(pVC)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
